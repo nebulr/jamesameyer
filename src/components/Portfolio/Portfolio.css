@@ -1,0 +1,50 @@
+
+
+.portfolio {
+    width: 100%
+}
+.portfolio .heading {
+    position: relative;
+    margin-bottom: 20px
+}
+.portfolio .heading ul {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+#portfolio .container .heading h2.background::after {
+  content : 'portfolio';
+}
+#portfolio .container .heading h2.background.repositories::after {
+  content : 'repositories';
+}
+#happy .happy-nested i,
+.success h4 {
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.portfolio .heading ul a {
+    border: 1px solid transparent;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 800;
+    color: #333;
+    letter-spacing: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+.portfolio .heading ul a.active,
+.portfolio .heading ul a:hover {
+    border: 1px solid #333
+}

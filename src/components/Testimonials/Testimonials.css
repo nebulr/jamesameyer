@@ -1,0 +1,100 @@
+#pencil-testimonials {
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+    font-family: Raleway, Arial, 'Open Sans', sans-serif;
+    text-align: center
+}
+#pencil-testimonials .heading-left {
+    text-align: center
+}
+#pencil-testimonials h2 {
+    display: inline-block
+}
+#pencil-testimonials h2.background:after {
+    content: 'What'
+}
+#pencil-testimonials .carousel-indicators {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center
+}
+#pencil-testimonials .carousel-indicators>li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px 0 0;
+    background-color: #E8E8E8;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+#pencil-testimonials .carousel-indicators>li:last-child {
+    margin-right: 0
+}
+#pencil-testimonials .carousel-indicators>li.active {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    margin-right: 3px
+}
+#pencil-testimonials .carousel-inner:hover {
+    cursor: -moz-grab;
+    cursor: -webkit-grab
+}
+#pencil-testimonials .carousel-inner:active {
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing
+}
+#pencil-testimonials .carousel-inner>.item {
+    -webkit-transition-timing-function: cubic-bezier(.56, .27, 0, .74);
+    -moz-transition-timing-function: cubic-bezier(.56, .27, 0, .74);
+    -o-transition-timing-function: cubic-bezier(.56, .27, 0, .74);
+    transition-timing-function: cubic-bezier(.56, .27, 0, .74)
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    #pencil-testimonials .carousel-inner>.item {
+        -webkit-transition-timing-function: cubic-bezier(.56, .27, 0, .74);
+        -moz-transition-timing-function: cubic-bezier(.56, .27, 0, .74);
+        -o-transition-timing-function: cubic-bezier(.56, .27, 0, .74);
+        transition-timing-function: cubic-bezier(.56, .27, 0, .74)
+    }
+}
+#pencil-testimonials .text-image {
+    width: 70%;
+    margin: auto!important;
+    padding: 20px;
+    text-align: center
+}
+#pencil-testimonials .text-image img {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+#pencil-testimonials .text-image h3 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    margin: 0 0 30px;
+    text-transform: uppercase
+}
+#pencil-testimonials .text-image h3 span {
+    display: inline-block
+}
+#pencil-testimonials .text-image p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px
+}

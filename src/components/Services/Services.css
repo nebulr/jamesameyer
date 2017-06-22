@@ -1,0 +1,22 @@
+
+#happy,
+#pencil-testimonials,
+#services,
+.portfolio {
+    background-color: #fff
+}
+#services h2.background:after {
+    content: 'Services'
+}
+#services .services-nested {
+    padding: 10px 0
+}
+#services .services-nested i {
+    font-size: 80px
+}
+#services .services-nested p {
+    margin: 0;
+    padding: 5px 0 0 5px;
+    font-size: 16px;
+    line-height: 25px
+}

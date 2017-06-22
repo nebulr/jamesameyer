@@ -1,0 +1,70 @@
+#home #particles-js,
+#home .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+#home {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    padding: 50px;
+    background-color: #043564;
+
+    background: -webkit-radial-gradient(circle, #7792AB, #043564); /* Safari */
+    background: -o-radial-gradient(circle, #7792AB, #043564); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #7792AB, #043564); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #7792AB, #043564); /* Standard syntax */
+
+    background-position: center center;
+    background-size: cover
+}
+#home .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6)
+}
+#about-me,
+#skills {
+    background-color: #fff
+}
+#home #particles-js {
+    position: absolute
+}
+#home .text-content {
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center
+}
+#home .text-content h1 {
+    margin: 0 0 30px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: capitalize
+}
+#home .text-content p {
+    margin: 0 0 30px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 300
+}
+
+#home .text-content .button {
+  border: 1px solid #FFFFFF;
+}

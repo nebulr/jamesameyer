@@ -1,0 +1,33 @@
+
+#skills {
+    width: 100%
+}
+#skills .skills-nested p {
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px;
+    color: #333;
+    font-size: 20px
+}
+#skills .skills-nested p span {
+    float: right;
+    font-weight: 800
+}
+#skills .skills-nested .progress-background {
+    width: 100%;
+    padding: 2px 0;
+    background-color: #e8e8e8
+}
+.spinner {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: -50px auto 100px -50px;
+    top: 50%;
+    left: 50%
+}
+#skills .skills-nested .progress-background .progress-a {
+    width: 92%;
+    height: 5px;
+    background-color: #333
+}

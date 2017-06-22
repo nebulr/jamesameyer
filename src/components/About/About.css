@@ -1,0 +1,20 @@
+
+#about-me .about-content .col-sm-12 h2.background {
+    margin-top: 40px
+}
+#about-me .about-content h2.background::after {
+    content: "about"
+}
+#about-me .about-content p {
+    padding: 0 0 0 20px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px
+}
+#about-me .about-content a.button {
+    color: #000;
+    margin-left: 20px
+}
+#about-me .about-content a.button:hover {
+    color: #fff
+}

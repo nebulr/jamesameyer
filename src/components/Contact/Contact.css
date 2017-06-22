@@ -1,0 +1,117 @@
+
+#contact-me {
+    width: 100%;
+    padding-bottom: 0;
+    background-color: #fff
+}
+#contact-me h2.background:after {
+    content: 'contact me'
+}
+#contact-me .contact-info {
+    padding: 5px 0 5px 50px;
+    position: relative
+}
+#contact-me .contact-info h4 {
+    font-size: 20px;
+    font-weight: 800
+}
+#contact-me .contact-info i {
+    position: absolute;
+    top: 30px;
+    left: 4px;
+    display: inline-block;
+    font-size: 30px
+}
+#contact-me .contact-me-nested {
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative
+}
+#contact-me .contact-me-nested input,
+#contact-me .contact-me-nested textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: 0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px
+}
+#contact-me .contact-me-nested textarea {
+    font-size: 14px;
+    letter-spacing: 2px;
+    resize: vertical;
+    min-height: 100px
+}
+#contact-me .contact-me-nested button {
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 2px solid #333;
+    outline: 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear
+}
+#contact-me .contact-me-nested button:hover {
+    background-color: #333;
+    color: #fff
+}
+#contact-me .contact-me-nested .form-filed-container {
+    padding: 20px 0 40px;
+    position: relative
+}
+#contact-me .contact-me-nested .form-filed-container [class^=error] {
+    position: absolute;
+    top: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 4px;
+    display: none
+}
+.success,
+.success h4 {
+    font-size: 40px;
+    width: 100%
+}
+.success {
+    position: relative;
+    background-color: #e8e8e8;
+    color: #222;
+    display: none
+}
+.success h4 {
+    text-align: center;
+    padding: 20px;
+    font-family: Raleway, Arial, 'Open Sans';
+    position: absolute;
+    top: 50%;
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.success h4 span {
+    display: inline-block
+}
+#contact-me #map {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px
+}
+
+#map {
+    display: none !important
+}
+#contact-me {
+    padding: 50px;
+}
