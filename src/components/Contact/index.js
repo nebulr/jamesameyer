@@ -11,7 +11,7 @@ class Contact extends Component {
             <div className="row">
                 <div className="col-md-8 col-md-offset-2">
                     <div className="contact-me-nested">
-                        <form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+                        <form name="ajax-form" id="ajax-form" method="post" action="https://formspree.io/james.ambrose.meyer@gmail.com">
                             <div className="col-lg-5">
                                 <div className="form-filed-container"> <span className="error-name">please enter name</span> <input name="name" id="name" type="text" placeholder="Name *" /></div>
                             </div>

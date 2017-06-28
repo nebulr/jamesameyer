@@ -57,9 +57,8 @@ class Navbar extends Component {
               <li><a href="#portfolio" className="link">Portfolio</a></li>
               <li><a href="#pencil-testimonials" className="link">Testimonials</a></li>
               <li><a href="#contact-me" className="link">contact</a></li>
-              <li className="social"><a href="https://themeforest.net/"><i className="fa fa-facebook"></i></a></li>
-              <li className="social"><a href="https://themeforest.net/"><i className="fa fa-twitter"></i></a></li>
-              <li className="social"><a href="https://themeforest.net/"><i className="fa fa-linkedin"></i></a></li>
+              <li className="social"><a href="https://github.com/nebulr" target="_blank"><i className="fa fa-github"></i></a></li>
+              <li className="social"><a href="https://github.com/nebulr" target="_blank"><i className="fa fa-linkedin"></i></a></li>
             </ul>
             <div className="menu-trigger" onClick={this.toggle.bind(this)}>
               <div className="menu-bar">

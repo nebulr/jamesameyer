@@ -2,11 +2,13 @@
   "name": "jamesameyer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./build/index.html",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
     "history": "^4.6.2",
+    "mailgun-js": "^0.11.2",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",

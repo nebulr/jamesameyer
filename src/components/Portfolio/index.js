@@ -11,13 +11,6 @@ class Portfolio extends Component {
     return fetch('https://api.github.com/users/nebulr/repos?type=owner&direction=desc')
     .then((response) => response.json())
     .then((responseJson) => {
-      console.log (responseJson);
-      // this.setState({
-      //   isLoading: false,
-      //   dataSource: ds.cloneWithRows(responseJson.movies),
-      // }, function() {
-      //   // do something with new state
-      // });
       this.setState({
         repos : responseJson
       });
