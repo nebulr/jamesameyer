@@ -22,7 +22,7 @@ class Respositories extends Component {
       <section id="portfolio" className="portfolio text-center">
         <div className="container">
             <div className="heading">
-                <h2 className="background repositories">repositories</h2>
+                <h2 className="background repositories">repos</h2>
             </div>
             <div className="row">
                 <div className="portfolio-items" id="grid">

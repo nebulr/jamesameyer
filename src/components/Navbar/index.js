@@ -47,7 +47,7 @@ class Navbar extends Component {
       <nav className={scrolledMenu}>
         <div className="container-fluid">
           <div className="brand">
-            <a href="index.html"> James A. Meyer </a>
+            <a href="https://nebulr.github.io/"> James A. Meyer </a>
           </div>
           <div className={nestedMenu}>
             <ul className={menuVisible} role="tablist">

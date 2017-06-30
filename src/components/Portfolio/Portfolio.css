@@ -22,7 +22,7 @@
   content : 'portfolio';
 }
 #portfolio .container .heading h2.background.repositories::after {
-  content : 'repositories';
+  content : 'repos';
 }
 #happy .happy-nested i,
 .success h4 {
